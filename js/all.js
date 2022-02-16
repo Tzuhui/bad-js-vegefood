@@ -16,7 +16,7 @@ axios.get(url)
     +"</td><td>" + b.下價
     +"</td><td>" + b.平均價
     +"</td><td>" + b.交易量
-    +"</td>"
+    +"</td></tr>"
     str+=content
   })
   table.innerHTML=str
@@ -46,7 +46,7 @@ function filterCategory(e){
       +"</td><td>" + i.下價
       +"</td><td>" + i.平均價
       +"</td><td>" + i.交易量
-      +"</td>"
+      +"</td></tr>"
       str+=content
     })
     table.innerHTML=str
